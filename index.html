@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis XV Años - Jennyfer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;500;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-text">Mis XV Años Jennyfer</div>
+    </div>
+
+    <!-- Portada Principal -->
+    <div class="invitation-container">
+        <div class="background-image"></div>
+        
+        <div class="content" style="top: 60%;">
+            <div class="title">Mis XV</div>
+            <div class="subtitle">Jennyfer</div>
+            <div class="date">26 - Abril - 2025</div>
+        </div>
+    </div>
+
+    <!-- Frase/Quote Section -->
+    <section class="quote-section">
+        <div class="quote-content">
+            Hoy comienza un nuevo capítulo de mi vida, lleno de sueños, esperanzas y la emoción de convertirme en una mujer. Mis XV años son la promesa de un futuro brillante y lleno de posibilidades.
+        </div>
+    </section>
+
+    <!-- Combined Music and Countdown Section -->
+    <section class="combined-section">
+        <div class="combined-content">
+            <div class="section-title">Celebra conmigo</div>
+            
+            <div class="music-instructions">
+                Dale play a la canción 
+            </div>
+            
+            <div class="custom-audio-player">
+                <button class="play-pause-btn">▶️</button>
+                <div class="timeline">
+                    <div class="timeline-progress"></div>
+                </div>
+            </div>
+
+            <audio id="background-music">
+                <source src="XV.mp3" type="audio/mpeg">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+
+            <div class="separator"></div>
+
+            <div class="countdown-title">Faltan para mi gran día:</div>
+            <div class="countdown-container">
+                <div class="countdown-item">
+                    <div class="countdown-number" id="days">00</div>
+                    <div class="countdown-label">Días</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-number" id="hours">00</div>
+                    <div class="countdown-label">Horas</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-number" id="minutes">00</div>
+                    <div class="countdown-label">Minutos</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-number" id="seconds">00</div>
+                    <div class="countdown-label">Segundos</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profile & Family Section -->
+    <section class="profile-family-section">
+        <div class="profile-family-container">
+            <!-- Profile Section -->
+            <div class="profile-content">
+                <div class="profile-name">Jennyfer Hernandez Ortiz</div>
+                
+                <div class="profile-carousel-container">
+                    <!-- Carousel images -->
+                    <div class="carousel-slides">
+                        <div class="carousel-slide active">
+                            <img src="imagen1.jpg" alt="Jennyfer" class="profile-image">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="image.png" alt="Jennyfer" class="profile-image">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="salon.jpeg" alt="Jennyfer" class="profile-image">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="imagen1.jpg" alt="Jennyfer" class="profile-image">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="image.png" alt="Jennyfer" class="profile-image">
+                        </div>
+                    </div>
+                    
+                    <!-- Navigation arrows -->
+                    <button class="carousel-arrow carousel-prev" aria-label="Previous image">❮</button>
+                    <button class="carousel-arrow carousel-next" aria-label="Next image">❯</button>
+                    
+                    <!-- Dots/indicators -->
+                    <div class="carousel-dots">
+                        <span class="carousel-dot active" data-slide="0"></span>
+                        <span class="carousel-dot" data-slide="1"></span>
+                        <span class="carousel-dot" data-slide="2"></span>
+                        <span class="carousel-dot" data-slide="3"></span>
+                        <span class="carousel-dot" data-slide="4"></span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Family Section -->
+            <div class="family-content">
+                <div class="family-title">Mis Padres</div>
+                <div class="family-names">Jorge Hernandez Diaz</div>
+                <div class="family-separator">&</div>
+                <div class="family-names">Graciela Ortiz Serrano</div>
+                
+                <div class="padrinos-section">
+                    <div class="family-title">Mis Padrinos</div>
+                    <div class="family-names">Antonio Solis Tolentino</div>
+                    <div class="family-separator">&</div>
+                    <div class="family-names">Maria de Lourdes Ortiz Serrano</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="location-section">
+        <div class="location-container">
+            <div class="location-title">¿Dónde?</div>
+            
+            <div class="ceremony-content">
+                <div class="ceremony-title">Ceremonia Religiosa</div>
+                <div class="church-name">Parroquia de San Antonio de Padua</div>
+                <div class="ceremony-time">17:00 HRS</div>
+                
+                <a href="https://maps.app.goo.gl/mbQTWDBHpqkVbrw69" class="map-button" target="_blank">
+                    VER MAPA
+                </a>
+                
+                <div class="ceremony-address">
+                    Principal 1, Centro, 54900 Tultitlán de Mariano Escobedo, Méx.
+                </div>
+                
+                <div class="church-image-container">
+                    <img src="image.png" alt="Nuestra Señora del Refugio" class="church-image">
+                </div>
+            </div>
+            
+            <div class="reception-content">
+                <div class="reception-title">Recepción</div>
+                <div class="venue-name">Salon Tucan</div>
+                <div class="reception-time">19:00 HRS</div>
+                
+                <a href="https://maps.app.goo.gl/5qbazSMJB6YwC8S68" class="map-button" target="_blank">
+                    VER MAPA
+                </a>
+                
+                <div class="reception-address">
+                    Manuel José Othón 18, Nativitas, 54900 Tultitlán de Mariano Escobedo, Méx.
+                </div>
+                <div class="church-image-container">
+                    <img src="salon.jpeg" alt="Nuestra Señora del Refugio" class="church-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="dress-code-section">
+        <div class="dress-code-container">
+            <div class="dress-code-title">Código de Vestimenta</div>
+            
+            <div class="dress-code-content">
+                <div class="dress-code-formal">FORMAL</div>
+                
+                <div class="dress-code-images">
+                    <div class="dress-code-image-container">
+                        <img src="Untitled.png" alt="Traje formal" class="dress-code-image">
+                    </div>
+                </div>
+                
+                <div class="dress-code-note">
+                    Verde reservado para la quinceañera
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gift-section">
+        <div class="gift-container">
+            <div class="gift-title">Sugerencia de Regalos</div>
+            
+            <div class="gift-content">
+                <div class="gift-message">
+                    Tu presencia es mi mejor regalo pero si gustas obsequiarme algo y no sabes qué te sugiero lo siguiente:
+                </div>
+                
+                <div class="gift-option">
+                    Depósita en un sobre el efectivo que gustes obsequiarme
+                </div>
+                
+                <div class="gift-icon-container">
+                    <div class="gift-icon">💌</div>
+                    
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="rsvp-section">
+        <div class="rsvp-container">
+            <div class="rsvp-title">Confirma tu Asistencia</div>
+            
+            <div class="rsvp-content">
+                <div class="rsvp-contact">
+                    <div class="contact-name">Confirmar con Jennyfer</div>
+                    <div class="contact-buttons">
+                        <a href="https://wa.me/5215520296577?text=¡Hola!%20Confirmo%20que%20SI%20asistiré%20a%20los%20XV%20años%20de%20Jennyfer." class="rsvp-button rsvp-yes" target="_blank">
+                            Asistiré
+                        </a>
+                        <a href="https://wa.me/5215520296577?text=¡Hola!%20Lamento%20informar%20que%20NO%20podré%20asistir%20a%20los%20XV%20años%20de%20Jennyfer." class="rsvp-button rsvp-no" target="_blank">
+                            No Asistiré
+                        </a>
+                    </div>
+                </div>
+                <div class="rsvp-contact">
+                    <div class="contact-name">Confirmar con Graciela</div>
+                    <div class="contact-buttons">
+                        <a href="https://wa.me/5215511969153?text=¡Hola!%20Confirmo%20que%20SI%20asistiré%20a%20los%20XV%20años%20de%20Jennyfer." class="rsvp-button rsvp-yes" target="_blank">
+                            Asistiré
+                        </a>
+                        <a href="https://wa.me/5215511969153?text=¡Hola!%20Lamento%20informar%20que%20NO%20podré%20asistir%20a%20los%20XV%20años%20de%20Jennyfer." class="rsvp-button rsvp-no" target="_blank">
+                            No Asistiré
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="rsvp-contact">
+                    <div class="contact-name">Confirmar con Jorge</div>
+                    <div class="contact-buttons">
+                        <a href="https://wa.me/5215534834802?text=¡Hola!%20Confirmo%20que%20SI%20asistiré%20a%20los%20XV%20años%20de%20Jennyfer." class="rsvp-button rsvp-yes" target="_blank">
+                            Asistiré
+                        </a>
+                        <a href="https://wa.me/5215534834802?text=¡Hola!%20Lamento%20informar%20que%20NO%20podré%20asistir%20a%20los%20XV%20años%20de%20Jennyfer." class="rsvp-button rsvp-no" target="_blank">
+                            No Asistiré
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section">
+    <div class="footer-container">
+        <div class="footer-content">
+            <div class="footer-attribution">
+                Página desarrollada por Jorge Hernandez Ortiz
+            </div>
+            <div class="footer-contact">
+                ¿Quieres una página como esta? Manda mensaje al <a href="https://wa.me/5215646911887" class="footer-link" target="_blank">564 691 1887</a>
+            </div>
+            <div class="footer-copyright">
+                &copy; 2025 - Todos los derechos reservados
+            </div>
+        </div>
+    </div>
+</footer>s
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            updateCountdown();
+            initializeCarousel();
+            
+            const audio = document.getElementById('background-music');
+            const playPauseBtn = document.querySelector('.play-pause-btn');
+            const timeline = document.querySelector('.timeline');
+            const timelineProgress = document.querySelector('.timeline-progress');
+
+            playPauseBtn.addEventListener('click', () => {
+                if (audio.paused) {
+                    audio.play();
+                    playPauseBtn.textContent = '⏸️';
+                } else {
+                    audio.pause();
+                    playPauseBtn.textContent = '▶️';
+                }
+            });
+
+            audio.addEventListener('timeupdate', () => {
+                const progressPercent = (audio.currentTime / audio.duration) * 100;
+                timelineProgress.style.width = `${progressPercent}%`;
+            });
+
+            timeline.addEventListener('click', (e) => {
+                const timelineWidth = timeline.clientWidth;
+                const clickPosition = e.offsetX;
+                const newTime = (clickPosition / timelineWidth) * audio.duration;
+                audio.currentTime = newTime;
+            });
+
+            audio.addEventListener('ended', () => {
+                playPauseBtn.textContent = '▶️';
+            });
+            
+            // Header scroll effect
+            const header = document.querySelector('.header');
+            if (window.pageYOffset > 5) {
+                header.classList.add('scrolled');
+            }
+            
+            window.addEventListener('scroll', function() {
+                if (window.pageYOffset > 5) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            });
+            
+            // Pequeño retraso para asegurar que todo esté renderizado
+            setTimeout(() => {
+                initializeAnimations();
+            }, 100);
+        });
+        
+        function updateCountdown() {
+            const targetDate = new Date('April 26, 2025 17:00:00').getTime();
+
+            function update() {
+                const now = new Date().getTime();
+                const difference = targetDate - now;
+
+                const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+                document.getElementById('days').textContent = String(days).padStart(2, '0');
+                document.getElementById('hours').textContent = String(hours).padStart(2, '0');
+                document.getElementById('minutes').textContent = String(minutes).padStart(2, '0');
+                document.getElementById('seconds').textContent = String(seconds).padStart(2, '0');
+            }
+
+            update();
+            setInterval(update, 1000);
+        }
+        
+        function initializeCarousel() {
+    console.log('Inicializando carrusel...');
+    const slides = document.querySelectorAll('.carousel-slide');
+    const dots = document.querySelectorAll('.carousel-dot');
+    const prevBtn = document.querySelector('.carousel-prev');
+    const nextBtn = document.querySelector('.carousel-next');
+    
+    if (!slides.length || !dots.length || !prevBtn || !nextBtn) {
+        console.error('Elementos del carrusel no encontrados');
+        return;
+    }
+    
+    console.log(`Encontrados: ${slides.length} slides, ${dots.length} dots`);
+    
+    let currentSlide = 0;
+    let slideInterval;
+    const autoplayDelay = 5000; // 5 segundos entre cambios automáticos
+    
+    // Función para mostrar un slide específico
+    function showSlide(index) {
+        console.log(`Mostrando slide ${index}`);
+        
+        // Resetear elementos activos previos
+        const activeSlide = document.querySelector('.carousel-slide.active');
+        const activeDot = document.querySelector('.carousel-dot.active');
+        
+        if (activeSlide) activeSlide.classList.remove('active');
+        if (activeDot) activeDot.classList.remove('active');
+        
+        // Establecer nuevos elementos activos
+        slides[index].classList.add('active');
+        dots[index].classList.add('active');
+        
+        // Actualizar índice de slide actual
+        currentSlide = index;
+    }
+    
+    // Inicializar presentación automática
+    function startAutoplay() {
+        console.log('Iniciando reproducción automática');
+        // Limpiar cualquier intervalo existente primero
+        clearInterval(slideInterval);
+        
+        slideInterval = setInterval(() => {
+            let nextIndex = (currentSlide + 1) % slides.length;
+            console.log(`Autoplay: cambiando al slide ${nextIndex}`);
+            showSlide(nextIndex);
+        }, autoplayDelay);
+    }
+    
+    // Detener presentación automática (para cuando el usuario interactúa con el carrusel)
+    function stopAutoplay() {
+        console.log('Deteniendo reproducción automática');
+        clearInterval(slideInterval);
+    }
+    
+    // Reiniciar reproducción automática después de la interacción del usuario
+    function restartAutoplay() {
+        stopAutoplay();
+        startAutoplay();
+    }
+    
+    // Event listeners para dots
+    dots.forEach((dot, index) => {
+        dot.addEventListener('click', () => {
+            console.log(`Dot ${index} clickeado`);
+            showSlide(index);
+            restartAutoplay();
+        });
+    });
+    
+    // Event listeners para botones prev/next
+    prevBtn.addEventListener('click', () => {
+        console.log('Botón previo clickeado');
+        let prevIndex = (currentSlide - 1 + slides.length) % slides.length;
+        showSlide(prevIndex);
+        restartAutoplay();
+    });
+    
+    nextBtn.addEventListener('click', () => {
+        console.log('Botón siguiente clickeado');
+        let nextIndex = (currentSlide + 1) % slides.length;
+        showSlide(nextIndex);
+        restartAutoplay();
+    });
+    
+    // Soporte para touch/swipe
+    let touchStartX = 0;
+    let touchEndX = 0;
+    
+    const carouselContainer = document.querySelector('.profile-carousel-container');
+    
+    if (carouselContainer) {
+        carouselContainer.addEventListener('touchstart', (e) => {
+            touchStartX = e.changedTouches[0].screenX;
+            stopAutoplay();
+        }, false);
+        
+        carouselContainer.addEventListener('touchend', (e) => {
+            touchEndX = e.changedTouches[0].screenX;
+            handleSwipe();
+            restartAutoplay();
+        }, false);
+        
+        // Pausar reproducción automática cuando el usuario se desplaza sobre el carrusel
+        carouselContainer.addEventListener('mouseenter', stopAutoplay);
+        carouselContainer.addEventListener('mouseleave', restartAutoplay);
+    }
+    
+    function handleSwipe() {
+        const swipeThreshold = 50; // distancia mínima para swipe
+        
+        if (touchEndX < touchStartX - swipeThreshold) {
+            // Swipe izquierda - mostrar siguiente slide
+            let nextIndex = (currentSlide + 1) % slides.length;
+            showSlide(nextIndex);
+        }
+        
+        if (touchEndX > touchStartX + swipeThreshold) {
+            // Swipe derecha - mostrar slide anterior
+            let prevIndex = (currentSlide - 1 + slides.length) % slides.length;
+            showSlide(prevIndex);
+        }
+    }
+    
+    // Mostrar el primer slide e iniciar el carrusel
+    showSlide(0);
+    startAutoplay();
+    
+    console.log('Carrusel inicializado correctamente');
+}
+
+// Asegurarse de que el código se ejecute después de que el DOM esté cargado
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('DOM cargado, preparando para inicializar carrusel');
+    setTimeout(() => {
+        initializeCarousel();
+    }, 500); // Pequeño retraso para asegurar que todo esté cargado
+});
+        
+        // Función para inicializar las animaciones
+        function initializeAnimations() {
+            // Asignar clases específicas de animación a diferentes secciones
+            document.querySelector('.quote-section').classList.add('animate-fadeInUp');
+            
+            // Sección combinada
+            document.querySelector('.combined-section').classList.add('animate-fadeIn');
+            document.querySelector('.combined-content').classList.add('animate-scaleIn');
+            document.querySelector('.section-title').classList.add('animate-fadeInDown');
+            document.querySelector('.separator').classList.add('animate-expandWidth');
+            
+            // Elementos del countdown
+            const countdownContainer = document.querySelector('.countdown-container');
+            countdownContainer.classList.add('animate-cascade');
+            countdownContainer.querySelectorAll('.countdown-item').forEach(item => {
+                item.classList.add('animate-countUp');
+            });
+            
+            // Sección de perfil/familia
+            document.querySelector('.profile-family-section').classList.add('animate-fadeIn');
+            document.querySelector('.profile-name').classList.add('animate-fadeInDown');
+            
+            // Animate carousel instead of single image container
+            document.querySelector('.profile-carousel-container').classList.add('animate-zoomImage');
+            
+            document.querySelector('.family-content').classList.add('animate-scaleIn');
+            document.querySelector('.family-title').classList.add('animate-fadeInDown');
+            document.querySelectorAll('.family-names').forEach(name => {
+                name.classList.add('animate-fadeInUp');
+            });
+            document.querySelectorAll('.family-separator').forEach(sep => {
+                sep.classList.add('animate-bounceIn');
+            });
+            
+            // Sección de locación
+            document.querySelector('.location-section').classList.add('animate-fadeIn');
+            document.querySelector('.location-title').classList.add('animate-fadeInDown');
+            document.querySelector('.ceremony-content').classList.add('animate-slideInLeft');
+            document.querySelector('.reception-content').classList.add('animate-slideInRight');
+            document.querySelectorAll('.church-image-container').forEach(img => {
+                img.classList.add('animate-zoomImage');
+            });
+            document.querySelectorAll('.map-button').forEach(btn => {
+                btn.classList.add('animate-sweepToRight');
+            });
+            
+            // Sección de código de vestimenta
+            document.querySelector('.dress-code-section').classList.add('animate-fadeIn');
+            document.querySelector('.dress-code-title').classList.add('animate-fadeInDown');
+            document.querySelector('.dress-code-content').classList.add('animate-slideInRight');
+            document.querySelector('.dress-code-formal').classList.add('animate-bounceIn');
+            document.querySelectorAll('.dress-code-image-container').forEach(container => {
+                container.classList.add('animate-fadeIn');
+            });
+            document.querySelector('.dress-code-note').classList.add('animate-fadeInUp');
+            
+            // Sección de regalos
+            document.querySelector('.gift-section').classList.add('animate-fadeIn');
+            document.querySelector('.gift-title').classList.add('animate-fadeInDown');
+            document.querySelector('.gift-content').classList.add('animate-flipInX');
+            document.querySelector('.gift-message').classList.add('animate-fadeInUp');
+            
+            
+            // Sección RSVP
+            document.querySelector('.rsvp-section').classList.add('animate-fadeIn');
+            document.querySelector('.rsvp-title').classList.add('animate-fadeInDown');
+            document.querySelector('.rsvp-content').classList.add('animate-rotateIn');
+            document.querySelectorAll('.contact-name').forEach(name => {
+                name.classList.add('animate-fadeInUp');
+            });
+            document.querySelectorAll('.rsvp-button').forEach(btn => {
+                btn.classList.add('animate-shimmer');
+            });
+            
+            // Inicializar observer para detectar cuando los elementos entran en la vista
+            initIntersectionObserver();
+        }
+        
+        // Función para inicializar el Intersection Observer
+        function initIntersectionObserver() {
+            const options = {
+                root: null, // viewport
+                rootMargin: '0px',
+                threshold: 0.15 // elemento visible en al menos 15%
+            };
+            
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animated');
+                        
+                        // Para los elementos hijos de contenedores tipo cascade
+                        if (entry.target.classList.contains('animate-cascade')) {
+                            entry.target.classList.add('animated');
+                        }
+                        
+                        // Dejar de observar después de animar
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, options);
+            
+            // Observar todos los elementos con clase animate-*
+            document.querySelectorAll('[class*="animate-"]').forEach(element => {
+                observer.observe(element);
+            });
+        }
+    </script>
+</body>
